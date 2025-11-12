@@ -1,6 +1,6 @@
-package org.mysecurityproject.springbootwithh2db.Repository;
+package org.automatedtestdemo.repository;
 
-import org.mysecurityproject.springbootwithh2db.Entity.Customer;
+import org.automatedtestdemo.entity.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface CustomerRepository extends JpaRepository<Customer,Long> {

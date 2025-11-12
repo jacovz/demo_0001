@@ -1,4 +1,4 @@
-package org.mysecurityproject.springbootwithh2db.Exception;
+package org.automatedtestdemo.exception;
 
 public class CustomerNotFoundException extends  RuntimeException {
     private static final long serialVersionUID = 1;

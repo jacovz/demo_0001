@@ -1,8 +1,8 @@
-package org.mysecurityproject.springbootwithh2db.Controller;
+package org.automatedtestdemo.controller;
 
-import org.mysecurityproject.springbootwithh2db.DTO.CustomerDTO;
-import org.mysecurityproject.springbootwithh2db.Exception.CustomerNotFoundException;
-import org.mysecurityproject.springbootwithh2db.Service.CustomerService;
+import org.automatedtestdemo.dto.CustomerDTO;
+import org.automatedtestdemo.exception.CustomerNotFoundException;
+import org.automatedtestdemo.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

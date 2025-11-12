@@ -1,9 +1,9 @@
-package org.mysecurityproject.springbootwithh2db.Service;
+package org.automatedtestdemo.service;
 
+import org.automatedtestdemo.dto.CustomerDTO;
+import org.automatedtestdemo.entity.Customer;
+import org.automatedtestdemo.repository.CustomerRepository;
 import org.modelmapper.ModelMapper;
-import org.mysecurityproject.springbootwithh2db.DTO.CustomerDTO;
-import org.mysecurityproject.springbootwithh2db.Entity.Customer;
-import org.mysecurityproject.springbootwithh2db.Repository.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

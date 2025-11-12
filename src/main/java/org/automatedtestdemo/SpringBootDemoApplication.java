@@ -1,4 +1,4 @@
-package org.mysecurityproject.springbootwithh2db;
+package org.automatedtestdemo;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.boot.SpringApplication;
@@ -6,10 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class SpringBootWithH2DbApplication {
+public class SpringBootDemoApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootWithH2DbApplication.class, args);
+        SpringApplication.run(SpringBootDemoApplication.class, args);
     }
 
     @Bean

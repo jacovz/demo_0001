@@ -1,6 +1,14 @@
-package org.mysecurityproject.springbootwithh2db.DTO;
+package org.automatedtestdemo.entity;
 
-public class CustomerDTO {
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+
+@Entity
+public class Customer {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     private String firstName;
     private String lastName;

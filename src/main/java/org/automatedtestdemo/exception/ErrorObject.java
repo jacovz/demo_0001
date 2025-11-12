@@ -1,4 +1,4 @@
-package org.mysecurityproject.springbootwithh2db.Exception;
+package org.automatedtestdemo.exception;
 
 import java.util.Date;
 
