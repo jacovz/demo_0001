@@ -12,6 +12,7 @@ public class Person {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
+    private String uniqueIdentifier;
     private String firstName;
     private String lastName;
     private String email;
@@ -74,5 +75,11 @@ public class Person {
 	}
 	public void setIsPayingSubscriber(Boolean isPayingSubscriber) {
 		this.isPayingSubscriber = isPayingSubscriber;
+	}
+	public String getUniqueIdentifier() {
+		return uniqueIdentifier;
+	}
+	public void setUniqueIdentifier(String uniqueIdentifier) {
+		this.uniqueIdentifier = uniqueIdentifier;
 	}
 }

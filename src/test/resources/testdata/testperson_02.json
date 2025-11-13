@@ -1,0 +1,12 @@
+{
+	"id": 0,
+	"uniqueIdentifier": "TEST_PERSON_02",
+	"firstName": "John Test 2",
+	"lastName": "Doe Test 2",
+	"email": "noname@fakemail.fake",
+	"phone": "000-0000000",
+	"address": "16 Main Street",
+	"age": 0,
+	"birthDate": "2000-01-01",
+	"isPayingSubscriber": true
+}

@@ -15,6 +15,12 @@ public class PersonService {
     private PersonRepository personRepository;
 
     public Person savePerson(Person person){
+    	if(person.getUniqueIdentifier()!=null) {
+    		Person saved = personRepository.findByUniqueIdentifier(person.getUniqueIdentifier());
+    		if(saved!=null) {
+    			person.setId(saved.getId());
+    		}
+    	}
         personRepository.save(person);
         return person;
     }

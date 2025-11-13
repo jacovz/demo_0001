@@ -15,8 +15,8 @@ public class PersonController {
     private PersonService personService;
 
     @PostMapping(value = "/save")
-    public Person saveCustomer(@RequestBody Person customerDTO){
-        return personService.savePerson(customerDTO);
+    public Person saveCustomer(@RequestBody Person personDTO){
+        return personService.savePerson(personDTO);
     }
 
     @GetMapping(value = "/get-all")
